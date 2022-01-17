@@ -30,7 +30,7 @@ namespace InvertedRounds
         {
             CursesPerWin = CursesPerWinConfig.Value;
 
-            Unbound.RegisterCredits("Suffering From Success", new string[] { "ZZcomic" }, new string[] { "" }, new string[] { "https://www.youtube.com/c/ZZcomic" });
+            Unbound.RegisterCredits("Suffering From Success", new string[] { "ZZcomic" }, new string[] { "Youtube", "Github" }, new string[] { "https://www.youtube.com/c/ZZcomic", "https://github.com/zzcomic/InvertedRounds" });
 
             Unbound.RegisterMenu("Suffering From Success", () => { }, this.NewGUI, null, false);
 
